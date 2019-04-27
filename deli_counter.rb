@@ -20,3 +20,10 @@ def take_a_number(position, name)
   puts "Welcome, #{name}. You are number #{position.length} in line."
 
 end
+
+def now_serving(line)
+    if line.length == 0
+      puts "There's nobody waiting to be served."
+
+
+end
