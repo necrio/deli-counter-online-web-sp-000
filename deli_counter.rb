@@ -19,6 +19,6 @@ def take_a_number(position, name)
   position.push(name)
   puts "Welcome, #{name}. You are #{position.length} in line."
 
-  
+
 
 end
