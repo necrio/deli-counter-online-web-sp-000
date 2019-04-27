@@ -1,11 +1,17 @@
 # Write your code here.
 def line(katz_deli)
-  case katz_deli.length
-
-  when 0
+    
+  if array.legth >= 1
+    deli_line = []
+    counter = 1
+    array.each do |name|
+      deli_line.push "#{counter}. #{name}"
+      counter += 1
+    end
+    puts "The line is currently: #{deli_line.join(" ")}"
+  else 
     puts "The line is currently empty."
-  else
-    puts "The line is currently: 1. #{katz_deli[0]} 2. #{katz_deli[1]} 3. #{katz_deli[2]}"
   end
+
 
 end
