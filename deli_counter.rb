@@ -1,7 +1,7 @@
 # Write your code here.
 def line(katz_deli)
 
-  if array.legth >= 1
+  if katz_deli.legth >= 1
     deli_line = []
     counter = 1
     katz_deli.each do |name|
