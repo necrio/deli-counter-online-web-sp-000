@@ -4,7 +4,7 @@ def line(katz_deli)
   if array.legth >= 1
     deli_line = []
     counter = 1
-    array.each do |name|
+    katz_deli.each do |name|
       deli_line.push "#{counter}. #{name}"
       counter += 1
     end
