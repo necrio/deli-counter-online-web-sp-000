@@ -14,9 +14,11 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, name)
-  line(katz_deli).each do |position|
-    puts "Welcome, #{name}. You are #{position} in line."
-  end
+def take_a_number(position, name)
+
+  position.push(name)
+  puts "Welcome, #{name}. You are #{position.length} in line."
+
+  
 
 end
