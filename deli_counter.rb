@@ -13,3 +13,10 @@ def line(katz_deli)
     puts "The line is currently empty."
   end
 end
+
+def take_a_number(line, new_person)
+    line(katz_deli).each do |position|
+      puts position
+    end
+
+end
